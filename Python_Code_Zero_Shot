@@ -1,0 +1,68 @@
+import openai
+import glob
+client = openai.OpenAI(api_key="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")
+
+def query_model(prompt):
+    try:
+        response = client.chat.completions.create(
+              model="gpt-3.5-turbo-16k",
+              messages=[{"role": "system", "content": """search the contracts for the clauses described by the
+              categories below.,
+              Category: Anti-Assignment, 
+              Description: Is Consent or notice required of a party if the contract is assigned to a third party? 
+              Category: Audit Rights,
+              Description: Does a party have the right to audit the books, records, or physical locations of the
+              counterparty to ensure compliance with the contract?
+              Category: Covenant not to Sue
+              Description: Is a party restricted from contesting the validity of the counterparty’s ownership of
+              intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the
+              contract?
+              Category: Governing law
+              Description: Which state/country's law governs the interpretation of the contract?
+              Category: IP ownership assignment
+              Description: Does intellectual property created  by one party become the property of the counterparty,
+              either per the terms of the contract or upon the occurrence of certain events?
+              Category: Insurance
+              Description: Is there a requirement for insurance that must be maintained by one party for the benefit of
+              the counterparty?
+              Category: Minimum commitment
+              Description: Is there a minimum order size or minimum amount or units per-time period that one party must 
+              buy from the counterparty under the contract?
+              Category: Post-termination services
+              Description: Is a party subject to obligations after the termination or expiration of a contract, including
+              any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?
+              Category: Revenue-profit sharing
+              Description: Is one party required to share revenue or profit with the counterparty for any technology,
+              goods, or services?
+              Category: Termination for convenience
+              Description: Can a party terminate this  contract without cause (solely by giving a notice and allowing
+              a waiting  period to expire)?
+              Category: Volume restriction
+              Description: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services
+              exceeds certain threshold?
+              Category: Warranty duration
+              Description: What is the duration of any  warranty against defects or errors in technology, products, or 
+              services  provided under the contract?
+              Additionally give me as a sum-up give the total count of every single category. E.g. Anti-Assignment: 3, Warranty duration: 4. etc.
+              """},
+                        {"role": "user", "content": prompt}
+              ])
+        return response
+
+    except Exception as e:
+        print(f"Ein Fehler ist aufgetreten: {e}")
+        return None
+
+output_liste = []
+folder_path = "./Corpus Annotation LLM/*.txt"
+for dateien in glob.glob(folder_path):
+    with open(dateien, 'r') as file:
+        document = file.read()
+        output = query_model(document)
+        output = output.choices[0].message.content
+        output_liste.append(output)
+print(output_liste)
+
+with open(r"./test.txt", "w") as filey:
+    for item in output_liste:
+        filey.write("%s\n" % item)
