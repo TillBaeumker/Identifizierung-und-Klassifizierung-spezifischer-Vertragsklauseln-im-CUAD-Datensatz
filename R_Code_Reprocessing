@@ -1,0 +1,124 @@
+---
+title: "Annotation_Preprocessing_and_metrics"
+author: "Till"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Libraries
+
+```{r library, echo=TRUE}
+
+install.packages("tidyverse")
+library(tidyverse)
+```
+
+## Load Data
+
+```{r Dateien reinigen, echo=FALSE}
+
+# Pfad zum Ordner mit den Textdateien
+ordnerpfad <- "C:/Users/Till/PycharmProjects/Till/Corpus Annotation LLM"
+
+# Liste der Dateien im Ordner
+dateiliste <- list.files(path = ordnerpfad, pattern = "\\.txt$", full.names = TRUE)
+
+# Funktion, um mehrere Leerzeichen durch ein einzelnes zu ersetzen und Sternchen zu entfernen
+bereinigeText <- function(text) {
+  # Ersetzen mehrfacher Leerzeichen durch ein einzelnes Leerzeichen
+  text <- gsub("\\s+", " ", text)
+  # Entfernen aller Sternchen
+  text <- gsub("\\*", "", text)
+  # Entfernen leerer Zeilen und Zeilen, die nur aus Leerzeichen bestehen
+  text <- text[trimws(text) != ""]
+  return(text)
+}
+
+# Schleife, um jede Datei zu bearbeiten und zurückzuspeichern
+for(datei in dateiliste) {
+  # Einlesen der Datei
+  text <- readLines(datei, warn = FALSE)
+  
+  # Bereinigen des Textes
+  text <- bereinigeText(text)
+  
+  # Speichern des bereinigten Textes (überschreibt die ursprüngliche Datei)
+  writeLines(text, datei)
+}
+
+```
+---
+title: "Data gold standard"
+author: "Till"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r load libraries}
+
+library(tidyverse)
+
+```
+
+
+```{r pressure, echo=FALSE}
+
+data <- read_csv("C:/Users/Till/Downloads/CUAD_v1 (1)/CUAD_v1/master_clauses.csv")
+```
+
+```{r clean data}
+
+# Liste der spezifischen Werte
+werte_liste <- c(
+    "ATMOSENERGYCORP_11_22_2002-EX-10.17-TRANSPORTATION SERVICE AGREEMENT.PDF",
+    "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT.PDF",
+    "ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.PDF",
+    "ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION AGREEMENT AND NANTZ COMMUNICATIONS, INC..PDF",
+    "ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_Trademark License Agreement.pdf",
+    "ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.pdf",
+    "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement.pdf",
+    "AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITE DEVELOPMENT AND HOSTING AGREEMENT.PDF",
+    "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement.pdf",
+    "ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTING AGREEMENT.PDF",
+    "ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .PDF",
+    "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT.PDF",
+    "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT.PDF",
+    "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT.PDF",
+    "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement.pdf", "ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT.PDF"
+)
+
+# Extrahieren der Zeilen, die diesen Werten in Column1 entsprechen
+neuer_df <- data[data$Filename %in% werte_liste, ]
+
+names(data)
+
+# Liste der benötigten Spaltennamen
+benoetigte_spalten <- c(
+    "Filename",
+    "Governing Law",
+    "Anti-Assignment",
+    "Audit Rights",
+    "Revenue/Profit Sharing",
+    "Termination For Convenience",
+    "Volume Restriction",
+    "Ip Ownership Assignment",
+    "Post-Termination Services",
+    "Warranty Duration",
+    "Insurance",
+    "Covenant Not To Sue",
+    "Minimum Commitment"
+)
+
+
+
+```
