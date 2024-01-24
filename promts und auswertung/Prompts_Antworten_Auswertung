@@ -1,13 +1,688 @@
-## Interaktion 1: Datum
-
 ### Prompt:
-Hier den ursprünglichen Prompt einfügen.
+Search the contracts for the clauses described by the categories below. Category: Anti-Assignment, Description: Is Consent or notice required of a party if the contract is assigned to a third party? Category: Audit Rights, Description: Does a party have the right to audit the books, records, or physical locations of the counterparty to ensure compliance with the contract? Category: Covenant not to Sue, Description: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract? Category: Governing law, Description: Which state/country's law governs the interpretation of the contract? Category: IP ownership assignment, Description: Does intellectual property created by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events? Category: Insurance, Description: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty? Category: Minimum commitment, Description: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract? Category: Post-termination services, Description: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments? Category: Revenue-profit sharing, Description: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services? Category: Termination for convenience, Description: Can a party terminate this contract without cause (solely by giving a notice and allowing a waiting period to expire)? Category: Volume restriction, Description: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold? Category: Warranty duration, Description: What is the duration of any warranty against defects or errors in technology, products, or services provided under the contract? Additionally, give me as a sum-up the total count of every single category. E.g., Anti-Assignment: 3, Warranty duration: 4, etc
 
-### Veränderte Prompts:
-Falls Sie den Prompt angepasst haben, dokumentieren Sie die Änderungen hier.
+### Output:
+2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement.pdf",
+Anti-Assignment: The contract does not include any clauses regarding anti-assignment. 
+Audit Rights: The contract does not include any clauses regarding audit rights.
+Covenant not to Sue: The contract does not include any clauses regarding covenant not to sue.
+Governing law: The contract states that it will be governed and construed in accordance with the laws of the State of California. 
+IP Ownership Assignment: The contract does not include any clauses regarding IP ownership assignment.
+Insurance: The contract does not include any clauses regarding insurance. 
+Minimum Commitment: The contract does not include any clauses regarding minimum commitment.
+Post-termination services: The contract does not include any clauses regarding post-termination services.
+Revenue-profit sharing: The contract does not include any clauses regarding revenue-profit sharing.
+Termination for convenience: The contract does not include any clauses regarding termination for convenience.
+Volume restriction: The contract does not include any clauses regarding volume restriction.
+Warranty duration: The contract does not include any clauses regarding warranty duration.
 
-### LLM Antwort:
-Fügen Sie hier die Antwort des LLM ein.
+Total count of each category:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP ownership assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
 
-### Analyse und Kommentare:
-Kurze Analyse oder Kommentare zur Antwort des LLM und zu den Gründen für die Änderung des Prompts.
+ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT.PDF
+
+Category: Anti-Assignment
+ - Clause: (b) Recipient may freely assign its rights under this Agreement to receive the Services to any of its affiliates.
+
+Category: Audit Rights
+ - Clause: (b) Provider shall maintain complete and accurate records relating to the provision of the Services under this Agreement, in such form as Recipient shall approve.
+
+Category: Covenant not to Sue
+ - Clause: None found.
+
+Category: Governing law
+ - Clause: 7.2 Governing Law. This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel.
+
+Category: IP ownership assignment
+ - Clause: 1.4 Intellectual Property. (a) Recipient shall own, and Provider hereby irrevocably assigns to the Recipient, all rights, title, and interest in any invention, technique, process, device, discovery, improvement, or know-how...which relate to, is suggested by, or results from the Services.
+
+Category: Insurance
+ - Clause: None found.
+
+Category: Minimum commitment
+ - Clause: None found.
+
+Category: Post-termination services
+ - Clause: 3.6 Upon expiration or termination of this Agreement for any reason, Provider shall promptly: (a) Deliver to Recipient all documents, work product, and other materials, whether or not complete, prepared by or on behalf of Provider in the course of performing the Services for which Recipient has paid. (b) Return to Recipient all Recipient-owned property, equipment, or materials in its possession or control. (c) Remove any Provider-owned property, equipment, or materials located at Recipient's locations. (d) Deliver to Recipient, all documents and tangible materials (and any copies) containing, reflecting, incorporating, or based on Recipient's Confidential Information.
+
+Category: Revenue-profit sharing
+ - Clause: None found.
+
+Category: Termination for convenience
+ - Clause: 3.2 Each of the Recipient and the Provider may, in their sole discretion, terminate this Agreement in whole or in part, at any time without cause, and without liability except, in the case of the Recipient, for required payment for services rendered and reimbursement for authorized expenses incurred, by providing at least 90 (ninety) days' prior written notice to the other party (such date, the "Services Termination Date").
+
+Category: Volume restriction
+ - Clause: None found.
+
+Category: Warranty duration
+ - Clause: None found.
+
+Total count of each category: 
+- Anti-Assignment: 1 
+- Audit Rights: 1 
+- Covenant not to Sue: 0 
+- Governing law: 1 
+- IP ownership assignment: 1 
+- Insurance: 0 
+- Minimum commitment: 0 
+- Post-termination services: 1 
+- Revenue-profit sharing: 0 
+- Termination for convenience: 1 
+- Volume restriction: 0 
+- Warranty duration: 0
+
+ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT.PDF
+
+Anti-Assignment: 
+- No mention of anti-assignment clause.
+
+Audit Rights: 
+- No mention of audit rights.
+
+Covenant not to Sue: 
+- No mention of covenant not to sue.
+
+Governing law: 
+- The agreement states that the construction and interpretation of the terms and provisions of this Agreement shall be interpreted and construed under the laws of the Commonwealth of Pennsylvania.
+
+IP ownership assignment: 
+- No mention of IP ownership assignment.
+
+Insurance: 
+- No mention of insurance requirement.
+
+Minimum commitment: 
+- No mention of minimum commitment.
+
+Post-termination services: 
+- No mention of post-termination services.
+
+Revenue-profit sharing: 
+- All income and losses are shared equally between the Joint Venturers.
+
+Termination for convenience: 
+- No explicit clause regarding termination for convenience.
+
+Volume restriction: 
+- No mention of volume restriction.
+
+Warranty duration: 
+- No mention of warranty duration.
+
+Total count:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP ownership assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 1
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
+
+ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT.PDF
+
+Anti-Assignment: No clause found
+Audit Rights: No clause found
+Covenant not to Sue: No clause found
+Governing law: "This Agreement shall be governed and construed according to the laws of the State of Kansas."
+IP ownership assignment: No clause found
+Insurance: No clause found
+Minimum commitment: No clause found
+Post-termination services: No clause found
+Revenue-profit sharing: No clause found
+Termination for convenience: No clause found
+Volume restriction: No clause found
+Warranty duration: No clause found
+
+Total count of categories:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP ownership assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
+
+ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT.PDF
+
+Anti-Assignment: No clause found.
+Audit Rights: No clause found.
+Covenant not to Sue: No clause found.
+Governing law: Clause 6.7 - This Agreement shall be governed by and construed under the laws of the State of California.
+IP ownership assignment: Clause 1.2 - PivX owns and retains all right, title, and interest in and to Qwik-Fix Pro and Documentation; all trademarks, service marks or trade names associated with Qwik-Fix Pro or Documentation, and all copyrights, patents, trade secret rights, and other intellectual property rights therein.
+Insurance: No clause found.
+Minimum commitment: No clause found.
+Post-termination services: No clause found.
+Revenue-profit sharing: No clause found.
+Termination for convenience: Clause 5.2 - PivX may terminate this Agreement for convenience by giving at least thirty (30) days written notice of termination to Detto.
+Volume restriction: No clause found.
+Warranty duration: No clause found.
+
+Total count:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP ownership assignment: 1
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 1
+Volume restriction: 0
+Warranty duration: 0
+
+ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.pdf
+Anti-Assignment: No information provided in the text.
+Audit Rights: No information provided in the text.
+Covenant not to Sue: No information provided in the text.
+Governing law: No information provided in the text.
+IP ownership assignment: No information provided in the text.
+Insurance: No information provided in the text.
+Minimum commitment: No information provided in the text.
+Post-termination services: No information provided in the text.
+Revenue-profit sharing: No information provided in the text.
+Termination for convenience: No information provided in the text.
+Volume restriction: No information provided in the text.
+Warranty duration: No information provided in the text.
+
+Total count for each category: 
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 0
+IP ownership assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
+
+ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTING AGREEMENT.PDF
+
+Category: Anti-Assignment
+
+There is no clause in the agreement that specifically addresses anti-assignment. 
+
+Category: Audit Rights
+
+There is no clause in the agreement that grants audit rights to either party.
+
+Category: Covenant not to Sue
+
+There is no clause in the agreement that restricts either party from contesting ownership of intellectual property or bringing claims unrelated to the contract.
+
+Category: Governing law
+
+The agreement states that it shall be governed by the laws of the State of California.
+
+Category: IP ownership assignment
+
+The agreement states that any intellectual property created or developed by the Consultant in the performance of the services is assigned to Aduro.
+
+Category: Insurance
+
+There is no clause in the agreement that requires either party to maintain insurance for the benefit of the other party.
+
+Category: Minimum commitment
+
+There is no specific minimum order size or commitment mentioned in the agreement.
+
+Category: Post-termination services
+
+There is no specific clause addressing post-termination services in the agreement.
+
+Category: Revenue-profit sharing
+
+There is no clause in the agreement that requires revenue or profit sharing.
+
+Category: Termination for convenience
+
+The agreement states that either party may terminate the agreement at any time on prior written notice to the other party.
+
+Category: Volume restriction
+
+There is no clause in the agreement that imposes a fee increase or consent requirement based on usage thresholds.
+
+Category: Warranty duration
+
+There is no clause in the agreement that specifies the duration of any warranty against defects or errors.
+
+Summary: 
+- Anti-Assignment: 0
+- Audit Rights: 0
+- Covenant not to Sue: 0
+- Governing law: 1 (State of California)
+- IP ownership assignment: 1
+- Insurance: 0
+- Minimum commitment: 0
+- Post-termination services: 0
+- Revenue-profit sharing: 0
+- Termination for convenience: 1
+- Volume restriction: 0
+- Warranty duration: 0
+
+AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement.pdf
+
+Category: Anti-Assignment
+- Clause 14.6: Assignment - The Manufacturer may not transfer or assign any of its rights or obligations under this agreement without the prior written consent of the Customer. The Customer may not freely transfer or assign its rights or obligations under this agreement without the prior written consent of the Manufacturer. 
+
+Category: Audit Rights
+- No specific clause found.
+
+Category: Covenant not to Sue
+- No specific clause found.
+
+Category: Governing law
+- Clause 10: GOVERNING LAW - This agreement shall be governed by the Laws of England (English common and statutory Law). 
+
+Category: IP ownership assignment
+- Clause 3.5(a): Intellectual Property - The Manufacturer covenants that the Products are clear of any Intellectual Property claims by third parties and that the Customer has full rights to sell and market the Products worldwide. The Manufacturer indemnifies the Customer for the same.
+- Clause 12: TRANSFER OF INTELLECTUAL PROPERTY - The Manufacturer agrees to offer the Customer the first right of refusal to purchase the intellectual property for the products listed in Schedule A of this agreement based upon agreed terms.
+- Clause 14.10: HOW TO ACHIEVE SUPER HEALTH BEYOND 2000 - ADVANCED EDITION BOOK - The Manufacturer has appointed the Customer the copyright holder of both the English and the Chinese version of the book "How to achieve Super Health beyond 2000 - Advanced Edition".
+
+Category: Insurance
+- Clause 6.1: The Manufacturing Companies utilised by the Agent to manufacture the products listed in Schedule A of this agreement shall maintain throughout the term of this agreement product liability insurance issued by a reputable insurance company under standard terms and conditions in the industry to cover the liability of the Customer and to indemnity the Customer from any costs, expenses, loss or damages resulting from any act, neglect or default of the company.
+- Clause 6.2: The Customer shall at all times during the term of this agreement maintain product liability insurance, covering all products sold by the Manufacturer to the Customer and which policy shall name the Manufacturer as Additional Insured.
+
+Category: Minimum commitment
+- Clause 13.1: The Manufacturer hereby appoints the Customer to be the sole and exclusive agent for the promotion, sales, marketing, distribution and administration of the products listed in schedule A of this agreement based on minimum annual product purchase requirements as listed in Schedule B of this agreement.
+
+Category: Post-termination services
+- No specific clause found.
+
+Category: Revenue-profit sharing
+- No specific clause found.
+
+Category: Termination for convenience
+- Clause 7.3(c): On either party for any reason (other than a default of the other party) being substantially prevented from performing or becoming unable to perform its obligations under this agreement.
+- Clause 7.3(e): If control of either party shall pass from the present shareholders or owners or controllers to other persons whom the other party shall in their absolute discretion regard as unsuitable.
+- Clause 7.3(f): Either parties voting stock is transferred to any third party to such extent as to result in a change in effective control of the company or its ownership or active management is changed in any other manner.
+
+Category: Volume restriction
+- No specific clause found.
+
+Category: Warranty duration
+- No specific clause found.
+
+Total count of each category:
+- Anti-Assignment: 1
+- Audit Rights: 0
+- Covenant not to Sue: 0
+- Governing law: 1
+- IP ownership assignment: 3
+- Insurance: 2
+- Minimum commitment: 1
+- Post-termination services: 0
+- Revenue-profit sharing: 0
+- Termination for convenience: 3
+- Volume restriction: 0
+- Warranty duration: 0
+
+
+Anti-Assignment: No specific clause found relating to consent or notice required for assignment to a third party.
+
+Audit Rights: No specific clause found granting the right to audit the counterparty's books, records, or physical locations.
+
+Covenant not to Sue: No specific clause found restricting a party from contesting the counterparty's ownership of intellectual property or bringing unrelated claims.
+
+Governing law: No specific clause found stating the governing law of the contract.
+
+IP ownership assignment: No specific clause found addressing the ownership of intellectual property created by one party.
+
+Insurance: No specific clause found requiring insurance to be maintained for the benefit of the counterparty.
+
+Minimum commitment: No specific clause found specifying minimum order size or amount that one party must buy from the counterparty.
+
+Post-termination services: No specific clause found addressing obligations after termination or expiration of the contract.
+
+Revenue-profit sharing: No specific clause found requiring revenue or profit sharing for technology, goods, or services.
+
+Termination for convenience: No specific clause found allowing either party to terminate the contract without cause.
+
+Volume restriction: No specific clause found imposing fees, consent requirements, etc. for exceeding certain thresholds of product/service use.
+
+Warranty duration: No specific clause found specifying the duration of any warranty against defects or errors.
+
+Total count: Anti-Assignment: 0, Audit Rights: 0, Covenant not to Sue: 0, Governing law: 0, IP ownership assignment: 0, Insurance: 0, Minimum commitment: 0, Post-termination services: 0, Revenue-profit sharing: 0, Termination for convenience: 0, Volume restriction: 0, Warranty duration: 0.
+
+ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement.pdf
+
+Category: Anti-Assignment
+Description: Is Consent or notice required of a party if the contract is assigned to a third party?
+- This information is not provided in the contract.
+
+Category: Audit Rights
+Description: Does a party have the right to audit the books, records, or physical locations of the counterparty to ensure compliance with the contract?
+- This information is not provided in the contract.
+
+Category: Covenant not to Sue
+Description: Is a party restricted from contesting the validity of the counterparty�s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract?
+- This information is not provided in the contract.
+
+Category: Governing law
+Description: Which state/country's law governs the interpretation of the contract?
+- The contract states that it shall be construed in accordance with the laws of the State of New York applicable to contracts formed and to be performed entirely within the State of New York.
+
+Category: IP ownership assignment
+Description: Does intellectual property created by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events?
+- This information is not provided in the contract.
+
+Category: Insurance
+Description: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty?
+- This information is not provided in the contract.
+
+Category: Minimum commitment
+Description: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract?
+- This information is not provided in the contract.
+
+Category: Post-termination services
+Description: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments?
+- This information is not provided in the contract.
+
+Category: Revenue-profit sharing
+Description: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services?
+- This information is not provided in the contract.
+
+Category: Termination for convenience
+Description: Can a party terminate this contract without cause (solely by giving a notice and allowing a waiting period to expire)?
+- The contract allows for termination at any time, without the payment of any penalty, upon 60 days' written notice by the vote of a majority of the outstanding voting securities of the Fund or by the vote of the Fund's Trustees or by the Blockchain Administrator.
+
+Category: Volume restriction
+Description: Is there a fee increase or consent requirement, etc. if one party�s use of the product/services exceeds certain threshold?
+- This information is not provided in the contract.
+
+Category: Warranty duration
+Description: What is the duration of any warranty against defects or errors in technology, products, or services provided under the contract?
+- This information is not provided in the contract.
+
+Total count of categories:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP ownership assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 1
+Volume restriction: 0
+Warranty duration: 0
+
+AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITE DEVELOPMENT AND HOSTING AGREEMENT.PDF
+
+Anti-Assignment: There is no clause regarding the assignment of the contract to a third party.
+
+Audit Rights: There is no clause granting audit rights to either party.
+
+Covenant not to Sue: There is no covenant not to sue clause in the contract.
+
+Governing law: The governing law of the contract is not specified in the contract.
+
+IP ownership assignment: There is no clause addressing the assignment of intellectual property in the contract.
+
+Insurance: There is no requirement for insurance mentioned in the contract.
+
+Minimum commitment: There is no minimum commitment clause in the contract.
+
+Post-termination services: There is no clause addressing post-termination obligations in the contract.
+
+Revenue-profit sharing: There is no revenue-profit sharing requirement in the contract.
+
+Termination for convenience: There is no clause regarding termination for convenience in the contract.
+
+Volume restriction: There is no volume restriction clause in the contract.
+
+Warranty duration: There is no clause specifying the duration of any warranty in the contract.
+
+Total count of categories:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 0
+IP ownership assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
+
+ArconicRolledProductsCorp_20191217_10-12B_EX-2.7_11923804_EX-2.7_Trademark License Agreement.pdf
+
+Anti-Assignment: The agreement does not specifically mention an anti-assignment clause. 
+Audit Rights: The agreement does not specifically mention audit rights. 
+Covenant not to Sue: The agreement does not specifically mention a covenant not to sue. 
+Governing Law: The agreement states that it shall be governed by and interpreted in accordance with the laws of the State of Delaware. 
+IP Ownership Assignment: The agreement states that Licensee wishes to obtain from Licensor the right and license to use, have used, manufacture, have manufactured, sell, have sold, advertise, have advertised, import, have imported, export, have exported, offer for sale, and have offered for sale the Licensed Products using the Licensed Mark. It also states that Licensee agrees and covenants that it shall not challenge, contest, or take any actions inconsistent with Licensor's exclusive rights of ownership of the Licensed Mark. 
+Insurance: The agreement does not specifically mention an insurance requirement. 
+Minimum Commitment: The agreement does not specifically mention a minimum commitment. 
+Post-termination services: The agreement does not specifically mention post-termination services. 
+Revenue-profit sharing: The agreement does not specifically mention revenue-profit sharing. 
+Termination for convenience: The agreement does not specifically mention termination for convenience. 
+Volume restriction: The agreement does not specifically mention a volume restriction. 
+Warranty duration: The agreement does not specifically mention a warranty duration.
+
+Sum-up:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP ownership assignment: 1
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
+
+ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION AGREEMENT AND NANTZ COMMUNICATIONS, INC..PDF
+
+Category: Anti-Assignment
+- ASSIGNMENT: This Agreement shall bind and inure to the benefit of the parties hereto and their respective successors and permitted assigns. Nantz Communications and Nantz acknowledge that the Services to be rendered by Nantz Communications and Nantz are unique and personal. Accordingly, except as otherwise expressly provided below, neither Nantz Communications nor Nantz shall assign any of their respective rights or delegate any of their respective duties or obligations under this Agreement without the written consent of the Company. (Section: ASSIGNMENT)
+
+Category: Audit Rights
+- AUDIT: Unless otherwise mutually agreed to in writing by the Company, Nantz Communications and Nantz, any controversy or claim arising out of or related to this Agreement, or the breach thereof, shall be settled by arbitration in accordance with the Rules of the American Arbitration Association or any successor. Each of the Company, on the one hand, and Nantz Communications and Nantz, on the other hand, shall select one arbitrator and the two so selected shall select a third. (Section: ARBITRATION)
+
+Category: Covenant not to Sue
+- INDEMNIFICATION: Neither Nantz Communications nor Nantz shall be liable for any obligations of the Company resulting directly or indirectly from the Endorsement of Ashworth Products. The Company shall protect, indemnify and hold harmless each of Nantz Communications and Nantz against any and all expenses, damages, claims, suits, actions, judgments and costs whatsoever, arising out of, or in any way connected with such Endorsement, in any advertising or promotional materials furnished by or on behalf of the Company, actions or omissions of the Company or any claim or action for personal injury, death or other cause of action involving alleged defects in Ashworth Products. (Section: INDEMNIFICATION)
+
+Category: Governing law
+- GOVERNING LAW: This Agreement and its formation, operation and performance shall be governed, construed, performed, and enforced in accordance with the laws of the State of California. (Section: GOVERNING LAW)
+
+Category: IP ownership assignment
+- IP OWNERSHIP: This Agreement shall bind and inure to the benefit of the parties hereto and their respective successors and permitted assigns. Nantz Communications and Nantz acknowledge that the Services to be rendered by Nantz Communications and Nantz are unique and personal. Accordingly, except as otherwise expressly provided below, neither Nantz Communications nor Nantz shall assign any of their respective rights or delegate any of their respective duties or obligations under this Agreement without the written consent of the Company. (Section: ASSIGNMENT)
+
+Category: Insurance
+- INSURANCE: The Company agrees to provide and maintain, at its own expense, advertising and product liability insurance each with limits no less than $5,000,000 and within thirty (30) days from the date hereof, the Company will submit to Nantz Communications a fully paid policy or certificate of insurance naming Nantz Communications and Nantz as insured parties. (Section: INSURANCE)
+
+Category: Minimum commitment
+- MINIMUM COMMITMENT: As full compensation for Services, the Company shall pay Nantz Communications an annual consulting fee of $30,000, such fee to be paid in equal quarterly installments of $7,500. (Section: COMPENSATION AND CONSULTING FEES)
+
+Category: Post-termination services
+- POST-TERMINATION: From and after the termination of the Term all of the rights of the Company to the use of the Endorsement shall cease absolutely and the Company shall not thereafter use or refer to the Endorsement in advertising or promotion in any manner whatsoever. The Company shall not advertise, promote, distribute or sell any item whatsoever in connection with the use of any name, figure, design, logo, trademark or trade name confusingly similar to or suggestive of the Endorsement following the termination of the Term. (Section: TERMINATION)
+
+Category: Revenue-profit sharing
+- REVENUE SHARING: As full compensation for Services, the Company shall pay Nantz Communications the following fees: 1) the Company shall pay Nantz Communications an annual consulting fee of $30,000, such fee to be paid in equal quarterly installments of $7,500, and 2) If Nantz agrees to participate in more than three store appearances in any given Contract Year, the Company shall pay Nantz Communications an additional fee of $7,500 for such additional appearance. (Section: COMPENSATION AND CONSULTING FEES)
+
+Category: Termination for convenience
+- TERMINATION: This Agreement may be terminated by any party upon mutual consent of the Company, on the one hand, and Nantz Communications and Nantz, on the other hand. (Section: TERMINATION)
+
+Category: Volume restriction
+- VOLUME RESTRICTION: No specific clause addressing volume restriction.
+
+Category: Warranty duration
+- WARRANTY: No specific clause addressing warranty duration.
+
+Total count for each category:
+Anti-Assignment: 2
+Audit Rights: 1
+Covenant not to Sue: 1
+IP ownership assignment: 1
+Insurance: 1
+Minimum commitment: 1
+Post-termination services: 1
+Revenue-profit sharing: 1
+Termination for convenience: 1
+Volume restriction: 0
+Warranty duration: 0
+
+ATMOSENERGYCORP_11_22_2002-EX-10.17-TRANSPORTATION SERVICE AGREEMENT.PDF
+
+Category: Anti-Assignment - Not applicable, as there is no mention of consent or notice required for assignment of the contract.
+
+Category: Audit Rights - Not applicable, as there is no mention of any party having the right to audit the books, records, or physical locations of the counterparty.
+
+Category: Covenant not to Sue - Not applicable, as there is no mention of any restriction on contesting ownership of intellectual property or bringing claims unrelated to the contract.
+
+Category: Governing law - The governing law for the interpretation of the contract is stated as the laws of the State of Arkansas.
+
+Category: IP ownership assignment - Not applicable, as there is no mention of intellectual property ownership in the contract.
+
+Category: Insurance - Not applicable, as there is no mention of any insurance requirement.
+
+Category: Minimum commitment - Not applicable, as there is no mention of any minimum order size or amount that must be purchased.
+
+Category: Post-termination services - Not applicable, as there is no mention of any obligations after the termination or expiration of the contract.
+
+Category: Revenue-profit sharing - Not applicable, as there is no mention of any revenue or profit sharing requirement.
+
+Category: Termination for convenience - Not applicable, as there is no mention of termination without cause.
+
+Category: Volume restriction - Not applicable, as there is no mention of any fee increase or consent requirement based on volume of product/services used.
+
+Category: Warranty duration - Not applicable, as there is no mention of any warranty duration for technology, products, or services.
+
+Total count of each category:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP ownership assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
+
+There are no clauses in the provided contract that specifically address the categories of Anti-Assignment, Audit Rights, Covenant not to Sue, IP ownership assignment, Insurance, Minimum commitment, Post-termination services, Revenue-profit sharing, Termination for convenience, Volume restriction, or Warranty duration.
+
+Total count of categories:
+- Anti-Assignment: 0
+- Audit Rights: 0
+- Covenant not to Sue: 0
+- Governing law: 0
+- IP ownership assignment: 0
+- Insurance: 0
+- Minimum commitment: 0
+- Post-termination services: 0
+- Revenue-profit sharing: 0
+- Termination for convenience: 0
+- Volume restriction: 0
+- Warranty duration: 0
+
+ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT.PDF
+
+Anti-Assignment: There is no mention of an anti-assignment clause in this document. 
+
+Audit Rights: There is no mention of audit rights in this document. 
+
+Covenant not to Sue: There is no mention of a covenant not to sue in this document. 
+
+Governing law: The governing law of this contract is the State of Minnesota. 
+
+IP Ownership Assignment: There is no mention of IP ownership assignment in this document. 
+
+Insurance: There is no mention of insurance requirements in this document. 
+
+Minimum commitment: There is no mention of a minimum commitment in this document. 
+
+Post-termination services: There is no mention of post-termination services in this document. 
+
+Revenue-profit sharing: There is no mention of revenue-profit sharing in this document. 
+
+Termination for convenience: There is no mention of termination for convenience in this document. 
+
+Volume restriction: There is no mention of volume restriction in this document. 
+
+Warranty duration: There is no mention of warranty duration in this document.
+
+Total count:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP Ownership Assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
+
+ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.PDF
+
+Audit Rights: The contract does not mention anything about audit rights.
+
+Covenant not to Sue: The contract does not mention anything about a covenant not to sue.
+
+Governing law: The contract states that it shall be governed by and construed in accordance with the laws of the Province of British Columbia and the federal laws of Canada applicable therein, excluding its conflict-of-laws rules.
+
+IP ownership assignment: The contract does not mention anything about IP ownership assignment.
+
+Insurance: The contract does not mention anything about insurance requirements.
+
+Minimum commitment: The contract does not mention anything about a minimum commitment.
+
+Post-termination services: The contract does not mention anything about post-termination services.
+
+Revenue-profit sharing: The contract does not mention anything about revenue-profit sharing.
+
+Termination for convenience: The contract does not mention anything about termination for convenience.
+
+Volume restriction: The contract does not mention anything about volume restriction.
+
+Warranty duration: The contract does not mention anything about warranty duration.
+
+Total count of each category:
+Anti-Assignment: 0
+Audit Rights: 0
+Covenant not to Sue: 0
+Governing law: 1
+IP ownership assignment: 0
+Insurance: 0
+Minimum commitment: 0
+Post-termination services: 0
+Revenue-profit sharing: 0
+Termination for convenience: 0
+Volume restriction: 0
+Warranty duration: 0
+
