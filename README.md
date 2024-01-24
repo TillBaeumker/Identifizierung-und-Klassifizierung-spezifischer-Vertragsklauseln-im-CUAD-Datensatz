@@ -7,7 +7,7 @@ Sprache: Englisch.
 Quelle: Contract Understanding Atticus Dataset (CUAD), erhältlich unter Atticus Project.
 Sprachmodell / Interface:
 
-Sprachmodell: OpenAI's GPT-4
+Sprachmodell: OpenAI's GPT-3.5-turbo
 Interface: Nutzung der OpenAI API für die Interaktion mit dem Sprachmodell und die Durchführung der Annotationsaufgabe.
 
 
@@ -18,6 +18,4 @@ Anwendung des Sprachmodells auf die ausgewählten Daten.
 Beurteilung der Ergebnisse:
 Vergleich der Annotationen des Sprachmodells mit den ursprünglichen, manuellen Annotationen im CUAD.
 Bewertung der Genauigkeit, Konsistenz und Vollständigkeit der vom Sprachmodell generierten Annotationen.
-Identifikation von Mustern oder Besonderheiten in den Ergebnissen, die Hinweise auf die Stärken und Schwächen des verwendeten Modells geben könnten.
 
-Quelle: Savelka J, Ashley KD. The unreasonable effectiveness of large language models in zero-shot semantic annotation of legal texts. Front Artif Intell. 2023 Nov 17;6:1279794. doi: 10.3389/frai.2023.1279794. PMID: 38045764; PMCID: PMC10690809.
