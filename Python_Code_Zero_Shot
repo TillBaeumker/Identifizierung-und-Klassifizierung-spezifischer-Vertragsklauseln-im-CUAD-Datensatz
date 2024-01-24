@@ -1,6 +1,6 @@
 import openai
 import glob
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="")
 
 def query_model(prompt):
     try:
